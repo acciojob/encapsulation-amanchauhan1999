@@ -2,6 +2,7 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         RWOnly rwOnly = new RWOnly();
 //        rwOnly.name = "Aman";
 //
@@ -17,6 +18,14 @@ public class Main {
         System.out.println(rwOnly.getName());
 
 
+=======
+        RWOnly rwOnly = new RWOnly("Aman");
+
+        System.out.println(rwOnly.getName());
+
+        rwOnly.setName("Himanshu");
+        System.out.println(rwOnly.getName());
+>>>>>>> 8dba0ef6fc43aef05786dee159944cc5f960f4bd
     }
   
 }
